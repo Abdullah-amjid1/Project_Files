@@ -1,0 +1,131 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.left
+{
+    color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.left p
+{
+    font-size: 1.5rem;
+}
+.right
+{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+.Hire,.Hire-Me
+{
+    width: 100px;
+    height: 30px;
+    background-color: #F0441A;
+    color: white;
+    border: none;
+}
+.main
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    gap: 10rem;
+    justify-content: space-between;
+}
+.Left 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 100px;
+}
+.buttons
+{
+    width: 280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.Hire-Me,.Cv
+{
+    width: 130px;
+    height: 40px;
+}
+.Cv
+{
+    border-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.Right img
+{
+    width: 600px;
+    margin-top: 130px ;
+}
+.name
+{
+    font-size: 30px;
+    color: #F0441A;
+}
+.info
+{
+    font-size: 70px;
+}
+.Hire-Me:hover
+{
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    box-shadow: 0 0 15px  #F0441A;
+}
+.Cv:hover
+{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: black;
+}
+.Hire:hover
+{
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0 0 15px  #F0441A;
+
+}
+.right a:hover
+{
+    cursor: pointer;
+    text-shadow: 0 0 2px white,
+                0 0 5px white,
+                0 0 10px white,
+                0 0 15px white;
+}
+.left img
+{
+    width: 40px;
+
+}
